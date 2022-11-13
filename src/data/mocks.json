@@ -1,0 +1,410 @@
+{
+  "columns": [
+    { "title": "First Name", "data": "firstName" },
+    { "title": "Last Name", "data": "lastName" },
+    { "title": "Start Date", "data": "startDate" },
+    { "title": "Department", "data": "department" },
+    { "title": "Date of Birth", "data": "dateOfBirth" },
+    { "title": "Street", "data": "street" },
+    { "title": "City", "data": "city" },
+    { "title": "State", "data": "state" },
+    { "title": "Zip Code", "data": "zipCode" }
+  ],
+  "departments": [
+    {
+      "label": "Sales",
+      "value": "Sales"
+    },
+    {
+      "label": "Marketing",
+      "value": "Marketing"
+    },
+    {
+      "label": "Engineering",
+      "value": "Engineering"
+    },
+    {
+      "label": "Human Resources",
+      "value": "Human Resources"
+    },
+    {
+      "label": "Legal",
+      "value": "Legal"
+    }
+  ],
+  "states": [
+    {
+      "label": "Alabama",
+      "value": "AL"
+    },
+    {
+      "label": "Alaska",
+      "value": "AK"
+    },
+    {
+      "label": "American Samoa",
+      "value": "AS"
+    },
+    {
+      "label": "Arizona",
+      "value": "AZ"
+    },
+    {
+      "label": "Arkansas",
+      "value": "AR"
+    },
+    {
+      "label": "California",
+      "value": "CA"
+    },
+    {
+      "label": "Colorado",
+      "value": "CO"
+    },
+    {
+      "label": "Connecticut",
+      "value": "CT"
+    },
+    {
+      "label": "Delaware",
+      "value": "DE"
+    },
+    {
+      "label": "District Of Columbia",
+      "value": "DC"
+    },
+    {
+      "label": "Federated States Of Micronesia",
+      "value": "FM"
+    },
+    {
+      "label": "Florida",
+      "value": "FL"
+    },
+    {
+      "label": "Georgia",
+      "value": "GA"
+    },
+    {
+      "label": "Guam",
+      "value": "GU"
+    },
+    {
+      "label": "Hawaii",
+      "value": "HI"
+    },
+    {
+      "label": "Idaho",
+      "value": "ID"
+    },
+    {
+      "label": "Illinois",
+      "value": "IL"
+    },
+    {
+      "label": "Indiana",
+      "value": "IN"
+    },
+    {
+      "label": "Iowa",
+      "value": "IA"
+    },
+    {
+      "label": "Kansas",
+      "value": "KS"
+    },
+    {
+      "label": "Kentucky",
+      "value": "KY"
+    },
+    {
+      "label": "Louisiana",
+      "value": "LA"
+    },
+    {
+      "label": "Maine",
+      "value": "ME"
+    },
+    {
+      "label": "Marshall Islands",
+      "value": "MH"
+    },
+    {
+      "label": "Maryland",
+      "value": "MD"
+    },
+    {
+      "label": "Massachusetts",
+      "value": "MA"
+    },
+    {
+      "label": "Michigan",
+      "value": "MI"
+    },
+    {
+      "label": "Minnesota",
+      "value": "MN"
+    },
+    {
+      "label": "Mississippi",
+      "value": "MS"
+    },
+    {
+      "label": "Missouri",
+      "value": "MO"
+    },
+    {
+      "label": "Montana",
+      "value": "MT"
+    },
+    {
+      "label": "Nebraska",
+      "value": "NE"
+    },
+    {
+      "label": "Nevada",
+      "value": "NV"
+    },
+    {
+      "label": "New Hampshire",
+      "value": "NH"
+    },
+    {
+      "label": "New Jersey",
+      "value": "NJ"
+    },
+    {
+      "label": "New Mexico",
+      "value": "NM"
+    },
+    {
+      "label": "New York",
+      "value": "NY"
+    },
+    {
+      "label": "North Carolina",
+      "value": "NC"
+    },
+    {
+      "label": "North Dakota",
+      "value": "ND"
+    },
+    {
+      "label": "Northern Mariana Islands",
+      "value": "MP"
+    },
+    {
+      "label": "Ohio",
+      "value": "OH"
+    },
+    {
+      "label": "Oklahoma",
+      "value": "OK"
+    },
+    {
+      "label": "Oregon",
+      "value": "OR"
+    },
+    {
+      "label": "Palau",
+      "value": "PW"
+    },
+    {
+      "label": "Pennsylvania",
+      "value": "PA"
+    },
+    {
+      "label": "Puerto Rico",
+      "value": "PR"
+    },
+    {
+      "label": "Rhode Island",
+      "value": "RI"
+    },
+    {
+      "label": "South Carolina",
+      "value": "SC"
+    },
+    {
+      "label": "South Dakota",
+      "value": "SD"
+    },
+    {
+      "label": "Tennessee",
+      "value": "TN"
+    },
+    {
+      "label": "Texas",
+      "value": "TX"
+    },
+    {
+      "label": "Utah",
+      "value": "UT"
+    },
+    {
+      "label": "Vermont",
+      "value": "VT"
+    },
+    {
+      "label": "Virgin Islands",
+      "value": "VI"
+    },
+    {
+      "label": "Virginia",
+      "value": "VA"
+    },
+    {
+      "label": "Washington",
+      "value": "WA"
+    },
+    {
+      "label": "West Virginia",
+      "value": "WV"
+    },
+    {
+      "label": "Wisconsin",
+      "value": "WI"
+    },
+    {
+      "label": "Wyoming",
+      "value": "WY"
+    }
+  ],
+  "selectItemsTable": [
+    {
+      "label": "10",
+      "value": 10
+    },
+    {
+      "label": "25",
+      "value": 25
+    },
+    {
+      "label": "50",
+      "value": 50
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "Julie",
+      "lastName": "Desmond",
+      "dateOfBirth": "11/11/1992",
+      "startDate": "04/12/2022",
+      "department": "Engineering",
+      "street": "44 rue de la ville",
+      "city": "Tutule",
+      "state": "CO",
+      "zipCode": "90900"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Lottre",
+      "dateOfBirth": "11/16/1992",
+      "startDate": "06/16/2022",
+      "department": "Marketing",
+      "street": "4 rue du village",
+      "city": "Tutuli",
+      "state": "CO",
+      "zipCode": "90904"
+    }
+  ]
+}
